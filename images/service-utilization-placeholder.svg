@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">Service utilization dashboard placeholder</title>
+  <desc id="desc">A simple placeholder dashboard graphic with utilization metrics and branch chart panels.</desc>
+  <rect width="1200" height="750" fill="#f7f8fa"/>
+  <rect x="70" y="70" width="1060" height="610" rx="10" fill="#ffffff" stroke="#dce3ea"/>
+  <text x="110" y="135" fill="#18212b" font-family="Arial, sans-serif" font-size="34" font-weight="700">Service Utilization Dashboard</text>
+  <text x="110" y="176" fill="#5b6773" font-family="Arial, sans-serif" font-size="20">Placeholder screenshot - replace with your dashboard image</text>
+  <rect x="110" y="225" width="220" height="130" rx="8" fill="#eef3f6" stroke="#dce3ea"/>
+  <text x="135" y="272" fill="#5b6773" font-family="Arial, sans-serif" font-size="18">Effective Utilization</text>
+  <text x="135" y="322" fill="#1f6f8b" font-family="Arial, sans-serif" font-size="42" font-weight="700">78%</text>
+  <rect x="360" y="225" width="220" height="130" rx="8" fill="#eef3f6" stroke="#dce3ea"/>
+  <text x="385" y="272" fill="#5b6773" font-family="Arial, sans-serif" font-size="18">Billable Hours</text>
+  <text x="385" y="322" fill="#1f6f8b" font-family="Arial, sans-serif" font-size="42" font-weight="700">1,248</text>
+  <rect x="610" y="225" width="220" height="130" rx="8" fill="#eef3f6" stroke="#dce3ea"/>
+  <text x="635" y="272" fill="#5b6773" font-family="Arial, sans-serif" font-size="18">Non-Billable</text>
+  <text x="635" y="322" fill="#1f6f8b" font-family="Arial, sans-serif" font-size="42" font-weight="700">214</text>
+  <rect x="860" y="225" width="220" height="130" rx="8" fill="#eef3f6" stroke="#dce3ea"/>
+  <text x="885" y="272" fill="#5b6773" font-family="Arial, sans-serif" font-size="18">Branches</text>
+  <text x="885" y="322" fill="#1f6f8b" font-family="Arial, sans-serif" font-size="42" font-weight="700">6</text>
+  <rect x="110" y="405" width="610" height="210" rx="8" fill="#ffffff" stroke="#dce3ea"/>
+  <rect x="150" y="530" width="55" height="55" fill="#1f6f8b"/>
+  <rect x="235" y="485" width="55" height="100" fill="#1f6f8b"/>
+  <rect x="320" y="455" width="55" height="130" fill="#1f6f8b"/>
+  <rect x="405" y="505" width="55" height="80" fill="#1f6f8b"/>
+  <rect x="490" y="435" width="55" height="150" fill="#1f6f8b"/>
+  <rect x="575" y="470" width="55" height="115" fill="#1f6f8b"/>
+  <text x="140" y="450" fill="#18212b" font-family="Arial, sans-serif" font-size="22" font-weight="700">Utilization by Branch</text>
+  <rect x="760" y="405" width="320" height="210" rx="8" fill="#ffffff" stroke="#dce3ea"/>
+  <circle cx="875" cy="510" r="72" fill="none" stroke="#1f6f8b" stroke-width="34"/>
+  <circle cx="875" cy="510" r="72" fill="none" stroke="#dce3ea" stroke-width="34" stroke-dasharray="120 452" transform="rotate(-60 875 510)"/>
+  <text x="970" y="490" fill="#18212b" font-family="Arial, sans-serif" font-size="20" font-weight="700">Billable</text>
+  <text x="970" y="525" fill="#5b6773" font-family="Arial, sans-serif" font-size="18">vs non-billable</text>
+</svg>

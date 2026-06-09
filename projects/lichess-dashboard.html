@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lichess Performance Dashboard | Ledger Crow</title>
+  <meta name="description" content="Ledger Crow case study for a Power BI dashboard built from Lichess API chess game data.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">
+      <img src="../images/ledger-crow-logo.png" alt="Ledger Crow logo">
+      <span>Ledger Crow</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../projects.html">Case Studies</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <p class="eyebrow">Case study</p>
+      <h1>Lichess Performance Dashboard</h1>
+      <p>An end-to-end analytics example using public Lichess game data to track player performance, opening results, rating movement, and game outcomes across 5,000 chess games.</p>
+    </section>
+
+    <article class="case-study">
+      <section>
+        <h2>Project Overview</h2>
+        <!-- Replace this placeholder image with your real Lichess dashboard screenshot. -->
+        <img class="case-image" src="../images/lichess-dashboard-preview.png" alt="Lichess Performance Dashboard preview">
+        <p>This dashboard converts raw Lichess game data into an interactive Power BI report designed for performance analysis. The report gives a clear view of rating trends, win/loss patterns, opening performance, monthly activity, and accuracy metrics.</p>
+      </section>
+
+      <section>
+        <h2>Analytical Problem</h2>
+        <p>Raw game histories are difficult to analyze directly. Individual games contain useful details, but trends only become visible after the data is extracted, cleaned, grouped, and modeled. This dashboard turns thousands of individual games into summary metrics and drillable views.</p>
+      </section>
+
+      <section>
+        <h2>Data Pipeline</h2>
+        <p>Lichess API &rarr; Python extraction and parsing &rarr; structured dataset &rarr; Power BI model &rarr; DAX measures &rarr; interactive dashboard.</p>
+      </section>
+
+      <section>
+        <h2>Dashboard Features</h2>
+        <ul class="feature-list">
+          <li>KPI cards for total games, win rate, average accuracy, and average user rating</li>
+          <li>Rating trend over time</li>
+          <li>Monthly game volume</li>
+          <li>Win/loss/draw breakdown</li>
+          <li>Win rate by opening</li>
+          <li>Opening variation matrix with games, wins, losses, and win rate</li>
+          <li>Power BI report embed placeholder for interactive viewing</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Technical Challenges</h2>
+        <ul class="feature-list">
+          <li>Extracting usable fields from raw Lichess game data</li>
+          <li>Normalizing game results into win/loss/draw categories</li>
+          <li>Grouping opening names and variations consistently</li>
+          <li>Building DAX measures for win rate and summary KPIs</li>
+          <li>Designing a dashboard that supports quick performance analysis rather than just displaying charts</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Reporting Value</h2>
+        <p>The finished report provides a reusable performance review tool. Instead of reviewing individual games manually, the dashboard summarizes long-term trends and highlights which openings, time periods, and result categories deserve closer review.</p>
+      </section>
+
+      <section>
+        <h2>Power BI Dashboard Embed</h2>
+        <p>Use the embedded report below once the public Power BI URL is available.</p>
+        <div class="power-bi-embed">
+          <!-- Paste the real Power BI public embed URL into the iframe src below. -->
+          <!-- Do not use a local PBIX file path here. Use the Power BI embed URL only. -->
+          <iframe
+            title="Lichess Performance Dashboard"
+            src="POWER_BI_EMBED_URL_HERE"
+            width="100%"
+            height="800"
+            frameborder="0"
+            allowfullscreen="true">
+          </iframe>
+        </div>
+      </section>
+
+      <section>
+        <h2>GitHub / Source Code</h2>
+        <!-- Replace this placeholder with your real GitHub repository link when ready. -->
+        <p><a class="text-link" href="https://github.com/your-username/lichess-power-bi-dashboard">GitHub repository placeholder</a></p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Ledger Crow. Reporting, dashboards, and automation.</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>

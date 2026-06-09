@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-labelledby="title desc">
+  <title id="title">NPS dashboard placeholder</title>
+  <desc id="desc">A simple placeholder dashboard graphic with NPS trend and customer satisfaction panels.</desc>
+  <rect width="1200" height="750" fill="#f7f8fa"/>
+  <rect x="70" y="70" width="1060" height="610" rx="10" fill="#ffffff" stroke="#dce3ea"/>
+  <text x="110" y="135" fill="#18212b" font-family="Arial, sans-serif" font-size="34" font-weight="700">NPS Dashboard</text>
+  <text x="110" y="176" fill="#5b6773" font-family="Arial, sans-serif" font-size="20">Placeholder screenshot - replace with your dashboard image</text>
+  <rect x="110" y="225" width="300" height="150" rx="8" fill="#eef3f6" stroke="#dce3ea"/>
+  <text x="135" y="275" fill="#5b6773" font-family="Arial, sans-serif" font-size="18">Current NPS</text>
+  <text x="135" y="335" fill="#1f6f8b" font-family="Arial, sans-serif" font-size="56" font-weight="700">42</text>
+  <rect x="450" y="225" width="300" height="150" rx="8" fill="#eef3f6" stroke="#dce3ea"/>
+  <text x="475" y="275" fill="#5b6773" font-family="Arial, sans-serif" font-size="18">Promoters</text>
+  <text x="475" y="335" fill="#1f6f8b" font-family="Arial, sans-serif" font-size="56" font-weight="700">64%</text>
+  <rect x="790" y="225" width="290" height="150" rx="8" fill="#eef3f6" stroke="#dce3ea"/>
+  <text x="815" y="275" fill="#5b6773" font-family="Arial, sans-serif" font-size="18">Detractors</text>
+  <text x="815" y="335" fill="#1f6f8b" font-family="Arial, sans-serif" font-size="56" font-weight="700">12%</text>
+  <rect x="110" y="425" width="600" height="200" rx="8" fill="#ffffff" stroke="#dce3ea"/>
+  <text x="140" y="470" fill="#18212b" font-family="Arial, sans-serif" font-size="22" font-weight="700">NPS Trend</text>
+  <polyline points="150,575 245,540 340,560 435,505 530,485 625,455" fill="none" stroke="#1f6f8b" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="150" cy="575" r="8" fill="#1f6f8b"/>
+  <circle cx="245" cy="540" r="8" fill="#1f6f8b"/>
+  <circle cx="340" cy="560" r="8" fill="#1f6f8b"/>
+  <circle cx="435" cy="505" r="8" fill="#1f6f8b"/>
+  <circle cx="530" cy="485" r="8" fill="#1f6f8b"/>
+  <circle cx="625" cy="455" r="8" fill="#1f6f8b"/>
+  <rect x="750" y="425" width="330" height="200" rx="8" fill="#ffffff" stroke="#dce3ea"/>
+  <text x="780" y="470" fill="#18212b" font-family="Arial, sans-serif" font-size="22" font-weight="700">Recent Follow-Up</text>
+  <line x1="780" y1="505" x2="1040" y2="505" stroke="#dce3ea"/>
+  <line x1="780" y1="545" x2="1040" y2="545" stroke="#dce3ea"/>
+  <line x1="780" y1="585" x2="1040" y2="585" stroke="#dce3ea"/>
+</svg>

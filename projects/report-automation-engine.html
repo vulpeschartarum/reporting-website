@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Report Automation Engine | Ledger Crow</title>
+  <meta name="description" content="Ledger Crow case study for a configurable SQL reporting automation system with exports, audit logs, scheduling, and optional AI summaries.">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../index.html">
+      <img src="../images/ledger-crow-logo.png" alt="Ledger Crow logo">
+      <span>Ledger Crow</span>
+    </a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="../index.html">Home</a>
+      <a href="../about.html">About</a>
+      <a href="../projects.html">Case Studies</a>
+      <a href="../contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <p class="eyebrow">Case study</p>
+      <h1>Report Automation Engine</h1>
+      <p>A configurable reporting automation system designed to execute recurring SQL-based reports, export reproducible outputs, maintain audit logs, and optionally generate AI-assisted report summaries.</p>
+    </section>
+
+    <article class="case-study">
+      <section>
+        <h2>Project Overview</h2>
+        <!-- Replace this summary with real implementation details when available. -->
+        <p>Many operational reporting workflows follow the same repetitive pattern: execute a saved SQL query, export the results, verify the output, distribute the file, and confirm the job completed successfully. This project packages that workflow into a reusable local reporting system focused on deterministic execution, repeatable outputs, and operational visibility.</p>
+      </section>
+
+      <section>
+        <h2>Operational Problem</h2>
+        <p>Recurring reporting processes are often handled manually through ad hoc exports, spreadsheets, scheduled tasks, or undocumented workflows. This increases the risk of inconsistent outputs, silent failures, missing reports, and duplicated effort. The Report Automation Engine standardizes recurring SQL report execution into a repeatable and traceable workflow.</p>
+      </section>
+
+      <section>
+        <h2>Core Capabilities</h2>
+        <ul class="feature-list">
+          <li>Config-driven report execution</li>
+          <li>Scheduled recurring report workflows</li>
+          <li>Deterministic CSV/Excel exports</li>
+          <li>Append-only audit logging</li>
+          <li>Job runtime and failure tracking</li>
+          <li>Optional AI-generated report interpretation</li>
+          <li>GUI-based report execution and monitoring</li>
+          <li>Reusable query and output folder structure</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>How It Works</h2>
+        <ul class="feature-list">
+          <li>SQL report definitions are stored as reusable .sql files</li>
+          <li>Report settings are controlled through a config file</li>
+          <li>The engine runs selected or scheduled reports</li>
+          <li>Outputs are exported to CSV or Excel</li>
+          <li>Each run is logged with success/failure status, runtime, and errors</li>
+          <li>Optional AI interpretation can generate structured JSON and human-readable markdown summaries</li>
+          <li>Reports can be run manually through a local GUI or scheduled through the operating system</li>
+        </ul>
+        <div class="workflow-strip" aria-label="Report automation workflow">
+          <span>SQL Files</span>
+          <span>Config</span>
+          <span>Engine</span>
+          <span>Exports</span>
+          <span>Logs</span>
+          <span>AI Summary</span>
+        </div>
+      </section>
+
+      <section>
+        <h2>AI-Assisted Interpretation</h2>
+        <p>The engine supports optional AI-assisted interpretation after deterministic report execution completes. AI-generated summaries are advisory only and never block report execution. Standard report outputs remain the source of truth, while AI summaries can provide a structured review of results in JSON and human-readable markdown formats.</p>
+      </section>
+
+      <section>
+        <h2>Scheduling and Audit Trail</h2>
+        <p>Reports can be scheduled through the operating system, allowing recurring jobs to run without manual intervention when the machine is available. Each execution is recorded in an append-only run history, creating a simple audit trail of completed jobs, failures, runtime, and error messages.</p>
+      </section>
+
+      <section>
+        <h2>Technical Details</h2>
+        <ul class="feature-list">
+          <li>Python-based report execution engine</li>
+          <li>Config-driven report definitions</li>
+          <li>SQL file organization and reusable workflows</li>
+          <li>CSV and Excel export support</li>
+          <li>Append-only run history logging</li>
+          <li>Scheduled execution through OS-level schedulers</li>
+          <li>Local GUI for report selection, execution, outputs, and logs</li>
+          <li>Optional AI-assisted post-processing summaries</li>
+          <li>SQLite demo support with path to future SQL Server use</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Screenshots</h2>
+        <!-- Replace this placeholder image with a real tool screenshot. -->
+        <img class="case-image" src="../images/report-automation-placeholder.svg" alt="Report automation engine placeholder screenshot">
+        <p>Future screenshots may include the local GUI, run history log, exported report outputs, and example AI summary files.</p>
+      </section>
+
+      <section>
+        <h2>Reporting Value</h2>
+        <p>The system demonstrates how recurring operational reporting can be standardized into a repeatable workflow with scheduling, logging, export management, and optional post-processing analysis. It is designed to reduce repetitive manual reporting work while improving visibility into report execution and outcomes.</p>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Ledger Crow. Reporting, dashboards, and automation.</p>
+  </footer>
+
+  <script src="../script.js"></script>
+</body>
+</html>
