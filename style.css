@@ -315,13 +315,6 @@ p {
   margin-top: 10px;
 }
 
-.muted-note {
-  display: block;
-  margin-top: 4px;
-  color: var(--muted-text);
-  font-size: 0.92rem;
-}
-
 .case-study {
   max-width: 880px;
   margin: 0 auto;
