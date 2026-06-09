@@ -343,6 +343,44 @@ p {
   box-shadow: var(--shadow);
 }
 
+.screenshot-stack {
+  display: grid;
+  gap: 24px;
+  margin-top: 18px;
+}
+
+.screenshot-card {
+  margin: 0;
+  overflow: hidden;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.screenshot-card img {
+  width: 100%;
+  height: auto;
+}
+
+.screenshot-card figcaption {
+  padding: 18px 20px 20px;
+}
+
+.screenshot-card figcaption strong,
+.screenshot-card figcaption span {
+  display: block;
+}
+
+.screenshot-card figcaption strong {
+  color: var(--text);
+}
+
+.screenshot-card figcaption span {
+  margin-top: 6px;
+  color: var(--muted-text);
+}
+
 .power-bi-embed {
   width: 100%;
   margin-top: 18px;
