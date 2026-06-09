@@ -305,6 +305,14 @@ p {
   max-width: 840px;
 }
 
+.about-header {
+  padding-bottom: 32px;
+}
+
+.about-content {
+  padding-top: 28px;
+}
+
 .contact-list {
   margin: 20px 0 0;
   padding: 0;
@@ -488,6 +496,14 @@ p {
   .section,
   .cta-band {
     padding: 52px 20px;
+  }
+
+  .about-header {
+    padding-bottom: 24px;
+  }
+
+  .about-content {
+    padding-top: 22px;
   }
 
   .hero {
