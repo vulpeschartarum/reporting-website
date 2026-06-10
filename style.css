@@ -402,7 +402,7 @@ p {
 .power-bi-embed iframe {
   display: block;
   width: 100%;
-  min-height: 800px;
+  min-height: 850px;
   border: 0;
 }
 

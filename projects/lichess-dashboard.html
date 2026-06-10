@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lichess Performance Dashboard | Ledger Crow</title>
-  <meta name="description" content="Ledger Crow case study for a Power BI dashboard built from Lichess API chess game data.">
+  <meta name="description" content="Ledger Crow solution for a Power BI dashboard built from Lichess API chess game data.">
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
@@ -17,14 +17,14 @@
     <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="../index.html">Home</a>
       <a href="../about.html">About</a>
-      <a href="../projects.html">Case Studies</a>
+      <a href="../projects.html">Solutions</a>
       <a href="../contact.html">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="page-header">
-      <p class="eyebrow">Case study</p>
+      <p class="eyebrow">Solution</p>
       <h1>Lichess Performance Dashboard</h1>
       <p>An end-to-end analytics example using public Lichess game data to track player performance, opening results, rating movement, and game outcomes across 5,000 chess games.</p>
     </section>
@@ -32,14 +32,21 @@
     <article class="case-study">
       <section>
         <h2>Project Overview</h2>
-        <!-- Replace this placeholder image with your real Lichess dashboard screenshot. -->
-        <img class="case-image" src="../images/lichess-dashboard-preview.png" alt="Lichess Performance Dashboard preview">
         <p>This dashboard converts raw Lichess game data into an interactive Power BI report designed for performance analysis. The report gives a clear view of rating trends, win/loss patterns, opening performance, monthly activity, and accuracy metrics.</p>
       </section>
 
       <section>
-        <h2>Analytical Problem</h2>
-        <p>Raw game histories are difficult to analyze directly. Individual games contain useful details, but trends only become visible after the data is extracted, cleaned, grouped, and modeled. This dashboard turns thousands of individual games into summary metrics and drillable views.</p>
+        <h2>Live Power BI Dashboard</h2>
+        <div class="power-bi-embed">
+          <iframe
+            title="Lichess Dashboard"
+            src="https://app.powerbi.com/view?r=eyJrIjoiMTUyOGUyYTgtN2FkZS00YzRjLWIwZDUtNTRlOWY3ZmZlNTdmIiwidCI6IjllMTQ3NmFlLWI1OWEtNDE0ZC05OWUyLWU4YzVjOTFhNTBiMSJ9"
+            width="100%"
+            height="850"
+            frameborder="0"
+            allowfullscreen="true">
+          </iframe>
+        </div>
       </section>
 
       <section>
@@ -56,7 +63,7 @@
           <li>Win/loss/draw breakdown</li>
           <li>Win rate by opening</li>
           <li>Opening variation matrix with games, wins, losses, and win rate</li>
-          <li>Power BI report embed placeholder for interactive viewing</li>
+          <li>Embedded Power BI report for interactive viewing</li>
         </ul>
       </section>
 
@@ -73,24 +80,7 @@
 
       <section>
         <h2>Reporting Value</h2>
-        <p>The finished report provides a reusable performance review tool. Instead of reviewing individual games manually, the dashboard summarizes long-term trends and highlights which openings, time periods, and result categories deserve closer review.</p>
-      </section>
-
-      <section>
-        <h2>Power BI Dashboard Embed</h2>
-        <p>Use the embedded report below once the public Power BI URL is available.</p>
-        <div class="power-bi-embed">
-          <!-- Paste the real Power BI public embed URL into the iframe src below. -->
-          <!-- Do not use a local PBIX file path here. Use the Power BI embed URL only. -->
-          <iframe
-            title="Lichess Performance Dashboard"
-            src="POWER_BI_EMBED_URL_HERE"
-            width="100%"
-            height="800"
-            frameborder="0"
-            allowfullscreen="true">
-          </iframe>
-        </div>
+        <p>Raw game histories are difficult to analyze directly. Individual games contain useful details, but trends only become visible after the data is extracted, cleaned, grouped, and modeled. The finished report provides a reusable performance review tool that summarizes long-term trends and highlights which openings, time periods, and result categories deserve closer review.</p>
       </section>
 
       <section>
